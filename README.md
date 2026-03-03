@@ -1,23 +1,24 @@
-💼 ****LinkedIn Job Scraper for LLMs****
-A lightweight Streamlit web application designed to scrape job descriptions from LinkedIn and compile them into a clean, structured .txt file. This format is optimized for feeding into Large Language Models (LLMs) for resume tailoring, cover letter generation, or career analysis.
+# 💼 LinkedIn Job Scraper for LLMs
 
-✨ Features
-**Headless Scraping**: 
+A streamlined **Streamlit** web application designed to scrape job descriptions from LinkedIn and compile them into a clean, structured `.txt` file. 
 
-Uses Selenium with Chrome in headless mode for speed and compatibility.
+This tool is specifically built to help users gather job data to feed into **Large Language Models (LLMs)** like ChatGPT, Claude, or Gemini for resume tailoring, cover letter generation, and career analysis.
 
-**Session Management**: 
+---
 
-Accumulates multiple job postings into a single session so you can download them all at once.
+## ✨ Key Features
 
-**Clean Formatting**: 
+* **Session Persistence:** Add multiple jobs one by one; the app accumulates them into a single session.
+* **LLM-Optimized Output:** Formats data (Title, Stats, Description) into a clean structure that AI models parse easily.
+* **Headless Scraping:** Uses Selenium in headless mode for a background process that doesn't interrupt your workflow.
+* **Auto-Driver Management:** Uses `webdriver-manager` to automatically handle Chrome driver updates.
+* **Clear UI:** Simple interactive interface built with Streamlit.
 
-Automatically extracts Title, Stats, and the full Job Description, stripping away web clutter.
+---
 
-**LLM Ready**: 
+## 🛠️ Installation & Setup
 
-Outputs a plain text file specifically structured for easy parsing by AI tools.
-
-Interactive UI: Built with Streamlit for a simple, user-friendly "Paste and Scrape" experience.
-
-
+### 1. Clone the Repository
+```bash
+git clone [https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git)
+cd YOUR_REPO_NAME
